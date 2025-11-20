@@ -12,6 +12,8 @@ drawings:
 mdc: true
 layout: two-cols-header
 layoutClass: gap-x-4
+fonts:
+  sans: Arial
 ---
 
 # An Example Truffle/Graal Pipeline
