@@ -179,7 +179,7 @@ Java, we can run this using Java's `Integer` class!
 
 <v-click at="2">
 
-![](./orig-ast.png)
+![](./images/orig-ast.png)
 
 </v-click>
 
@@ -309,11 +309,11 @@ Orange: uninitialized, Blue: integers
 
 ::left::
 
-![](./orig-ast.png)
+![](./images/orig-ast.png)
 
 ::right::
 
-![](./int-ast.png)
+![](./images/int-ast.png)
 
 ---
 layout: two-cols-header
@@ -425,13 +425,13 @@ graph TD
 
 <template #1>
 
-![](./int-ast.png)
+![](./images/int-ast.png)
 
 </template>
 
 <template #2>
 
-![](./double-ast.png)
+![](./images/double-ast.png)
 
 </template>
 
@@ -466,7 +466,7 @@ either overflows or type mismatch?
 
 ::left::
 
-![](./int-ast.png)
+![](./images/int-ast.png)
 
 ::right::
 
@@ -511,7 +511,7 @@ down to machine code with aggressive inling
 
 <v-click>
 
-![](./int-ast.png)
+![](./images/int-ast.png)
 
 </v-click>
 
@@ -657,7 +657,7 @@ L3: call    deoptimize
 
 Deoptimize and re-optimize.
 
-![](./partial.png)
+![](./images/partial.png)
 
 <v-clicks>
 
