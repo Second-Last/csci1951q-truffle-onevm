@@ -184,16 +184,7 @@ Java, we can run this using Java's `Integer` class!
 </v-click>
 
 <!--
-Now, are there ways to make it better?
-
-In a JIT compiler, all the magic happens at runtime, so let's run this function
-on a value, say `sum(5)`, and see how Truffle optimizations work.
-
-First, the compiler turns the function `sum` into an AST tree. [Walk through the
-corresponding positions]
-
-Now let's consider an optimization opportunity, and let's just focus on `sum +=
-1`. Sure, 
+Mention colors.
 -->
 
 ---
@@ -369,7 +360,7 @@ If we're still using our specialized add that works on Java's 32-bit
 
 Hint: in JavaScript, ints must be represented precisely up to
 $2^{53} - 1$, and
-$1 + 2 + \cdots + 1000000 \approx 10^{40}$
+$1 + 2 + \cdots + 1000000 \approx 2^{40}$
 
 </v-click>
 
